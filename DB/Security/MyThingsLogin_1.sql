@@ -1,0 +1,3 @@
+﻿CREATE LOGIN [MyThingsLogin]
+    WITH PASSWORD = N'bc|lv f3mx6Kekig,|lzwqpymsFT7_&#$!~<uz{xLenbxHas', SID = 0x4C752E1D410A6A4E9C35E6D5B73062A1, DEFAULT_DATABASE = [MyThings], DEFAULT_LANGUAGE = [us_english], CHECK_POLICY = OFF;
+

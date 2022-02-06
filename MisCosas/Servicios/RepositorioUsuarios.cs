@@ -1,22 +1,21 @@
 ﻿using Dapper;
-using Microsoft.Data.SqlClient;
 using MisCosas.Models;
+using Microsoft.Data.SqlClient;
 
 namespace MisCosas.Servicios
 {
-
     public interface IRepositorioUsuarios
     {
         Task<Usuario> BuscarUsuarioPorEmail(string emailNormalizado);
         Task<int> CrearUsuario(Usuario usuario);
     }
+
     public class RepositorioUsuarios : IRepositorioUsuarios
     {
         private readonly string connectionString;
-
         public RepositorioUsuarios(IConfiguration configuration)
         {
-            connectionString = configuration.GetConnectionString("DefaulConnection");
+            connectionString = configuration.GetConnectionString("DefaultConnection");
         }
 
         public async Task<int> CrearUsuario(Usuario usuario)

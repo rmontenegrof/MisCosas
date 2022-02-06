@@ -1,19 +1,17 @@
-﻿using Microsoft.AspNetCore.Identity;
-using MisCosas.Models;
+﻿using MisCosas.Models;
+using Microsoft.AspNetCore.Identity;
 
 namespace MisCosas.Servicios
 {
-    public class UsuarioStore : IUserStore<Usuario>, IUserEmailStore<Usuario>, IUserPasswordStore<Usuario>
+    public class UsuarioStore : IUserStore<Usuario>, IUserEmailStore<Usuario>,
+        IUserPasswordStore<Usuario>
     {
-
         private readonly IRepositorioUsuarios repositorioUsuarios;
 
         public UsuarioStore(IRepositorioUsuarios repositorioUsuarios)
         {
             this.repositorioUsuarios = repositorioUsuarios;
         }
-
-
 
         public async Task<IdentityResult> CreateAsync(Usuario user, CancellationToken cancellationToken)
         {
@@ -28,7 +26,6 @@ namespace MisCosas.Servicios
 
         public void Dispose()
         {
-            throw new NotImplementedException();
         }
 
         public async Task<Usuario> FindByEmailAsync(string normalizedEmail, CancellationToken cancellationToken)
@@ -73,7 +70,7 @@ namespace MisCosas.Servicios
 
         public Task<string> GetUserIdAsync(Usuario user, CancellationToken cancellationToken)
         {
-            throw new NotImplementedException();
+            return Task.FromResult(user.Id.ToString());
         }
 
         public Task<string> GetUserNameAsync(Usuario user, CancellationToken cancellationToken)

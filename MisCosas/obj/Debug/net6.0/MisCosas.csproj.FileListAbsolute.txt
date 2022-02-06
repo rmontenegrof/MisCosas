@@ -57,3 +57,10 @@ C:\Users\rmont\Documents\Desarrollos\ASPNET\MisCosas\MisCosas\bin\Debug\net6.0\r
 C:\Users\rmont\Documents\Desarrollos\ASPNET\MisCosas\MisCosas\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\rmont\Documents\Desarrollos\ASPNET\MisCosas\MisCosas\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
 C:\Users\rmont\Documents\Desarrollos\ASPNET\MisCosas\MisCosas\obj\Debug\net6.0\MisCosas.csproj.CopyComplete
+C:\Users\rmont\Documents\Desarrollos\ASPNET\MisCosas\MisCosas\obj\Debug\net6.0\scopedcss\Views\Cuentas\Index.cshtml.rz.scp.css
+C:\Users\rmont\Documents\Desarrollos\ASPNET\MisCosas\MisCosas\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\rmont\Documents\Desarrollos\ASPNET\MisCosas\MisCosas\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\rmont\Documents\Desarrollos\ASPNET\MisCosas\MisCosas\bin\Debug\net6.0\ClosedXML.dll
+C:\Users\rmont\Documents\Desarrollos\ASPNET\MisCosas\MisCosas\bin\Debug\net6.0\DocumentFormat.OpenXml.dll
+C:\Users\rmont\Documents\Desarrollos\ASPNET\MisCosas\MisCosas\bin\Debug\net6.0\ExcelNumberFormat.dll
+C:\Users\rmont\Documents\Desarrollos\ASPNET\MisCosas\MisCosas\bin\Debug\net6.0\System.IO.Packaging.dll
